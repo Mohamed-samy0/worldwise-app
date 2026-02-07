@@ -1,0 +1,75 @@
+.stats {
+  background-color: var(--color-dark--2);
+  padding: 10px 15px; 
+  border-radius: 7px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.stats h2 {
+  font-size: 1rem;
+  color: var(--color-light--1);
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.statRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1;
+}
+
+.statItem strong {
+  font-size: 1.6rem;
+  color: var(--color-brand--2);
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.statItem span {
+  font-size: 0.8rem;
+  color: var(--color-light--2);
+  text-transform: uppercase;
+}
+
+.progressContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--color-light--2);
+  font-weight: 500;
+}
+
+.progressBar {
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-dark--1);
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: var(--color-brand--2);
+  border-radius: 100px;
+  transition: width 0.5s ease-out;
+}
