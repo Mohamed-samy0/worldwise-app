@@ -20,5 +20,4 @@ APIs: Leaflet (Maps), Nominatim (Geocoding/Search).
 This project was a deep dive into connecting a modern React frontend with a BaaS (Backend-as-a-Service) solution.
 
 Check it out live! 👇 
-🔗 Live Demo: https://lnkd.in/dRhvWbQS
-💻 GitHub Repo: https://lnkd.in/dpe35peG
+🔗 Live Demo:(https://worldwise-app-mo-samy.vercel.app/)
